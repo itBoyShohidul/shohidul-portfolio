@@ -10,7 +10,7 @@ function Project({ project }) {
           src={`https://portfolio-server-1z4c.onrender.com/${project.image}`}
           width={1024}
           height={768}
-          alt="lorem"
+          alt={`${project.name} image`}
         />
       </div>
       <div className="project-right">
