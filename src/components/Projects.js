@@ -15,13 +15,13 @@ function Projects({ category, load }) {
 
   return (
     <div>
-    if(projects.length >0)
-      {projects.slice(0, load).map((project, index) => {
-        return <Project key={index} project={project} />;
-      }else{
-        return <h3>Loading...</h3>
-      }
-                                  )}
+      {projects.length > 0 ? (
+        projects.slice(0, load).map((project, index) => {
+          return <Project key={index} project={project} />;
+        })
+      ) : (
+        <h3 style={{ margin: "10px 0" }}>Project not found!</h3>
+      )}
     </div>
   );
 }
