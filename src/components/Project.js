@@ -7,7 +7,7 @@ function Project({ project }) {
     <div className="project">
       <div className="project-left">
         <Image
-          src={`https://portfolio-server-1z4c.onrender.com/${project.image}`}
+          src={`../images/${project.image}`}
           width={1024}
           height={768}
           alt={`${project.name} image`}
