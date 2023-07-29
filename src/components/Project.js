@@ -33,7 +33,7 @@ function Project({ project }) {
         <a className="menu-btn" href={project.liveLink} rel="nofollow">
           Live View
         </a>
-        <a className="menu-btn" href={project.liveLink} rel="nofollow">
+        <a className="menu-btn" href={project.sourceCode} rel="nofollow">
           Source Code
         </a>
       </div>
