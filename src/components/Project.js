@@ -7,7 +7,7 @@ function Project({ project }) {
     <div className="project">
       <div className="project-left">
         <Image
-          src={`../images/${project.image}`}
+          src={"/" + project.image}
           width={1024}
           height={768}
           alt={`${project.name} image`}
